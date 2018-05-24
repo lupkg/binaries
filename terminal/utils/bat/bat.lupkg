@@ -1,0 +1,34 @@
+meta:
+  name: bat
+  license:
+    - Apache v2.0
+    - MIT
+  author:
+    github_user: sharkdp
+    name: David Peter
+    homepage: http://david-peter.de/
+  homepage: https://github.com/sharkdp/bat
+  language: rust
+  type: binary
+
+info:
+  slug:  a cat(1) clone with wings.
+  urls:
+    readme: https://github.com/sharkdp/bat/blob/master/README.md
+    customization: https://github.com/sharkdp/bat#customization
+  tags:
+    - cat
+    - github
+    - syntax highlighting
+
+properties:
+  arch:
+    - apple-darwin
+    - unknown-linux-gnu
+
+download:
+  url: https://github.com/sharkdp/bat/releases/download/v{{ version }}/bat-v{{ version }}-x86_64-{{ arch }}.tar.gz
+
+versions:
+  - 0.2.0
+  - 0.1.0

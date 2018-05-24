@@ -1,0 +1,61 @@
+meta:
+  name: tldr
+  license: MIT
+  author:
+    github_user: mstruebing
+    name: Max Strübing
+    homepage: https://maex.me
+  homepage: https://github.com/mstruebing/tldr
+  language: go
+  type: binary
+
+info:
+  slug: Golang command line client for tldr
+  urls:
+    readme: https://github.com/mstruebing/tldr/blob/master/README.md
+  tags:
+    - tldr
+    - man
+
+download:
+  url: https://github.com/mstruebing/tldr/releases/download/v{{ version }}/tldr-{{ arch }}.tar.gz
+
+properties:
+  arch:
+    - darwin-386
+    - darwin-amd64
+    - dragonfly-amd64
+    - freebsd-386
+    - freebsd-amd64
+    - freebsd-arm
+    - linux-386
+    - linux-amd64
+    - linux-arm
+    - linux-arm64
+    - linux-mips
+    - linux-mips64
+    - linux-mips64le
+    - linux-mipsle
+    - linux-ppc64
+    - linux-ppc64le
+    - netbsd-386
+    - netbsd-amd64
+    - netbsd-arm
+    - openbsd-386
+    - openbsd-amd64
+    - openbsd-arm
+    - plan9-386
+    - plan9-amd64
+    - solaris-amd64
+    - windows-386
+    - windows-amd64
+
+versions:
+  - 1.1.0
+  - 1.0.6
+  - 1.0.5
+  - 1.0.4
+  - 1.0.3
+  - 1.0.2
+  - 1.0.1
+  - 1.0.0

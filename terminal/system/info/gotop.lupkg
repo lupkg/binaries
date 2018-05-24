@@ -1,0 +1,52 @@
+meta:
+  name: gotop
+  homepage: https://github.com/cjbassi/gotop
+  author:
+    name: Caleb Bassi
+    github_user: cjbassi
+    email: calebjbassi@gmail.com
+  type: binary
+  language: go
+
+info:
+  slug: A terminal based graphical activity monitor inspired by gtop and vtop
+  urls:
+    readme: https://github.com/cjbassi/gotop/blob/master/README.md
+    usage: https://github.com/cjbassi/gotop#usage
+  tags:
+    - top
+    - system monitor
+
+download:
+  url: https://github.com/cjbassi/gotop/releases/download/{{ version }}/gotop_{{ version }}_{{ arch }}.tgz
+  checksums: https://github.com/cjbassi/gotop/releases/download/{{ version }}/gotop_{{ version }}_checksums.txt
+
+properties:
+  arch:
+    - linux_386
+    - linux_amd64
+    - linux_arm5
+    - linux_arm6
+    - linux_arm7
+    - linux_arm8
+  notes:
+    - earlier versions don't support all architectures that are currently supported
+
+versions:
+  - 1.2.13
+  - 1.2.12
+  - 1.2.11
+  - 1.2.10
+  - 1.2.9
+  - 1.2.8
+  - 1.2.7
+  - 1.2.6
+  - 1.2.5
+  - 1.2.4
+  - 1.2.3
+  - 1.2.2
+  - 1.2.1
+  - 1.1.1
+  - 1.1.0
+  - 1.0.1
+  - 1.0.0

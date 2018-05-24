@@ -1,0 +1,50 @@
+meta:
+  name: hugo
+  homepage: https://gohugo.io
+  requirements: []
+  type: binary
+  language: go
+
+info:
+  slug: a static site generator
+  urls:
+    - https://gohugo.io/documentation/
+  community:
+    - https://discourse.gohugo.io/
+  tags:
+    - static-site-generator
+    - website
+    - blog
+  issues: https://github.com/gohugoio/hugo/issues
+
+download:
+  url:
+    - url: https://github.com/gohugoio/hugo/releases/download/v{{ version }}/hugo_{{ version }}_{{ arch }}.tar.gz
+      file_name: hugo
+      type: binary
+      checksum: https://github.com/gohugoio/hugo/releases/download/v{{ version }}/hugo_{{ version }}_checksums.txt
+
+properties:
+  arch:
+    - DragonFlyBSD-64bit
+    - FreeBSD-32bit
+    - FreeBSD-64bit
+    - FreeBSD-ARM
+    - Linux-32bit
+    - Linux-64bit
+    - Linux-ARM
+    - Linux-ARM64
+    - macOS-32bit
+    - macOS-64bit
+    - NetBSD-32bit
+    - NetBSD-64bit
+    - NetBSD-ARM
+    - OpenBSD-32bit
+    - OpenBSD-64bit
+
+versions:
+  - 0.40.1
+  - 0.40
+  - 0.39
+  - 0.38.2
+  - 0.38.1

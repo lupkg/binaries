@@ -1,0 +1,52 @@
+meta:
+  name: dust
+  license: Apache License 2.0
+  author:
+    github_user: bootandy
+    name: Andy Boot
+    homepage: http://www.nuclearcarrot.co.uk
+  homepage: https://github.com/bootandy/dust
+  language: rust
+  type: binary
+
+info:
+  slug: like du but more intuitive
+  urls:
+    usage: https://github.com/bootandy/dust#usage
+    readme: https://github.com/bootandy/dust/blob/master/README.md
+  tags:
+    - du
+    - disk usage
+
+properties:
+  arch:
+    - apple-darwin
+    - unknown-linux-gnu
+
+download:
+  url: https://github.com/bootandy/dust/releases/download/v{{ version }}/dust-v{{ version }}-x86_64-{{ arch }}.tar.gz
+
+versions:
+  - 0.2.3:
+      changelog:
+        - Change package name to du-dust
+  - 0.2.2:
+      changelog:
+        - Update readme
+  - 0.2.1:
+      changelog:
+         - Just build mac and linux
+         - Remove appveyor file which was designed for windows
+  - 0.2.0:
+      changelog:
+        - First 'proper' release, several bug fixes applied from earlier version.
+      arch:
+        - aarch64-unknown-linux-gnu
+        - arm-unknown-linux-gnueabi
+        - armv7unknown-linux-gnueabihf
+        - i686-apple-darwin
+        - i686-unknown-linux-gnu
+        - i686-unknown-linux-musl
+        - x86_64-apple-darwin
+        - x86_64-unknown-linux-gnu
+        - x86_64-unknown-linux-musl
